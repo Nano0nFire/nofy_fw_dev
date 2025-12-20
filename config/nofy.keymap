@@ -347,9 +347,9 @@
 
         default_layer {
             bindings = <
-&kp LA(TAB)    &kp Q             &kp W         &kp E         &kp R                &kp T                        &mt_trans ESCAPE 0                    &kp UP_ARROW                                                &none         &mt_trans ESC 0  &kp Y  &kp U  &kp I      &kp O    &kp P        &bt BT_CLR_ALL
-&kp LC(Z)      &kp A             &kp S         &kp D         &kp F                &kp G                                              &kp LEFT_ARROW  &kp ENTER              &kp RIGHT_ARROW               &none  &none  &none                   &kp H  &kp J  &kp K      &kp L    &lt 4 ENTER  &bt BT_SEL 0
-&kp LS(LC(Z))  &kp Z             &kp X         &kp C         &kp V                &kp B                        &jis_LBKT                             &kp DOWN_ARROW                                              &none         &jis_RBKT        &kp N  &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH  &bt BT_SEL 1
+&kp LA(TAB)    &kp Q             &kp W         &kp E         &kp R                &kp T                        &mt_trans ESCAPE 0                    &kp UP_ARROW                                                         &kp UP_ARROW                   &mt_trans ESC 0  &kp Y  &kp U  &kp I      &kp O    &kp P        &bt BT_CLR_ALL
+&kp LC(Z)      &kp A             &kp S         &kp D         &kp F                &kp G                                              &kp LEFT_ARROW  &kp ENTER              &kp RIGHT_ARROW               &kp LEFT_ARROW  &kp ENTER     &kp RIGHT_ARROW                   &kp H  &kp J  &kp K      &kp L    &lt 4 ENTER  &bt BT_SEL 0
+&kp LS(LC(Z))  &kp Z             &kp X         &kp C         &kp V                &kp B                        &jis_LBKT                             &kp DOWN_ARROW                                                       &kp DOWN                       &jis_RBKT        &kp N  &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH  &bt BT_SEL 1
                &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &HoldToLayer 2 LEFT  &HoldToKey LEFT_SHIFT SPACE  &HoldToLayer 1 RIGHT                  &HoldToLayer 3 DELETE  &kp BACKSPACE    &jis_BSLH
             >;
 
