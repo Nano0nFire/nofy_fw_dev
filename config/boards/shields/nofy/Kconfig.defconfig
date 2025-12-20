@@ -22,7 +22,7 @@ config SPI
     default y
 
 config PMW3610
-    bool
+    bool "Enable PMW3610 sensor"
     default y
 
 endif
