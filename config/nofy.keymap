@@ -66,27 +66,27 @@
 
         eng {
             bindings = <&kp LANGUAGE_2>;
-            key-positions = <18 17>;
+            key-positions = <19 20>;
         };
 
         jp {
             bindings = <&kp LANGUAGE_1>;
-            key-positions = <24 23>;
+            key-positions = <29 30>;
         };
 
         left-boot {
             bindings = <&bootloader>;
-            key-positions = <42 47 5>;
+            key-positions = <50 1 5>;
         };
 
         right-boot {
             bindings = <&bootloader>;
-            key-positions = <48 50 8>;
+            key-positions = <10 14 58>;
         };
 
         sys-reset {
             bindings = <&sys_reset>;
-            key-positions = <8 12>;
+            key-positions = <10 14>;
         };
     };
 
