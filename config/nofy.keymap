@@ -382,9 +382,9 @@
 
         Shortcut {
             bindings = <
-&trans  &trans      &trans         &trans           &trans      &trans      &trans              &none                            &none         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(F2)  &kp C_AC_SAVE  &kp LC(L)        &kp LC(Y)   &kp LC(Z)                &none  &none   &none             &none  &none  &none          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans         &kp LS(N8)       &kp LS(N9)  &trans      &trans              &none                            &none         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans         &trans           &trans      &trans      &trans              &none                                      &kp LG(W)                   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(F2)  &kp C_AC_SAVE  &kp LC(L)        &kp LC(Y)   &kp LC(Z)                &none  &none   &none             &kp LC(LS(TAB))  &kp LG(L)      &kp LC(TAB)          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans         &kp LS(N8)       &kp LS(N9)  &trans      &trans              &none                                      &kp LS(LG(T))               &trans  &trans  &trans  &trans  &trans  &trans  &trans
         &trans      &trans         &kp PRINTSCREEN  &trans      &kp K_COPY  &kp K_PASTE         &trans  &trans  &trans
             >;
 
