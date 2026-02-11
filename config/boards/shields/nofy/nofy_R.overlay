@@ -91,7 +91,7 @@
     boost {
         layers = <1>;
         input-processors = <
-            &zip_xy_transform INPUT_TRANSFORM_Y_INVERT
+            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
             &zip_xy_transform INPUT_TRANSFORM_XY_SWAP
             &zip_xy_scaler 3 1
         >;
@@ -100,7 +100,7 @@
     baller {
         layers = <2>;
         input-processors = <
-            &zip_xy_transform INPUT_TRANSFORM_Y_INVERT
+            &zip_xy_transform INPUT_TRANSFORM_X_INVERT
             &zip_xy_transform INPUT_TRANSFORM_XY_SWAP
             &zip_xy_scaler 1 40
             &zip_keybind_keys
@@ -111,7 +111,6 @@
         layers = <5>;
         input-processors = <
             &zip_xy_to_scroll_mapper
-            &zip_xy_transform INPUT_TRANSFORM_XY_SWAP
             &zip_scroll_scaler 1 6
         >;
     };
